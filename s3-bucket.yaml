@@ -1,0 +1,6 @@
+AWSTemplateFormatVersion: '2023-03-02'
+Resources:
+  MyS3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: terraform-remote-backend-s3
